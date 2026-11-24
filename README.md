@@ -55,7 +55,7 @@ restarted.
 ## Folder Structure
 
 ```
-SuperMarketBillingSystem/
+Mini-Projects/
   src/
     Main.java
     model/
@@ -104,8 +104,10 @@ SuperMarketBillingSystem/
 ## How to Run
 
 1. Make sure Java 17 (or later) is installed: `java -version`
-2. From the `SuperMarketBillingSystem/src` folder, compile everything:
+2. Clone the repo and compile everything from the `src` folder:
    ```
+   git clone https://github.com/Carain-dev/Mini-Projects.git
+   cd Mini-Projects/src
    javac -d ../out Main.java model/*.java data/*.java repository/*.java service/*.java utility/*.java
    ```
 3. Run the compiled program:
